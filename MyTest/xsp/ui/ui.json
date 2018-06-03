@@ -1,0 +1,79 @@
+{
+	"style" : "default ",
+	"config" : "save_MyTest.dat",
+	"width" : 700,
+	"height" : 960,
+	"cancelscroll" : true,
+	"cancelname" : "取消",
+	"okname" : "开始脚本",
+	"views" : [
+		{
+			"text" : "基本设置",
+			"type" : "Page",
+			"style" : "default",
+			"views" : [
+				{
+					"id" : "group1",
+					"width" : 700,
+					"height" : 100,
+					"type" : "LinearLayout",
+					"views" : [
+						{
+							"align" : "left",
+							"color" : "0,0,0",
+							"size" : "30",
+							"text" : "【※】挂机方式：",
+							"type" : "Label",
+							"width" : 250,
+							"height" : 100
+						},
+						{
+							"id" : "doStyleBox",
+							"list" : "刷地下城",
+							"select" : "0",
+							"size" : "30",
+							"type" : "ComboBox",
+							"width" : 300,
+							"height" : 100
+						}
+					]
+				},
+				{
+                    "id" : "line",
+                    "type" : "Line",
+                    "color" : "0,0,255",
+	                "height" : 2,
+                    "width" : 700
+                },
+				{
+					"align" : "left",
+					"color" : "0,0,0",
+					"size" : "30",
+					"text" : "【※】地下城选择：",
+					"type" : "Label",
+					"width" : 300
+				},
+				{
+	                "id" : "dxcSelectBox",
+	                "list" : "巨人,龙,死亡",
+	                "select" : "0",
+	                "size" : "30",
+	                "type" : "ComboBox"
+                },
+				{
+	                "id" : "dxcLevelBox",
+	                "list" : "第一层,第二层,第三层,第四层,第五层,第六层,第七层,第八层,第九层,第十层",
+	                "select" : "0",
+	                "size" : "30",
+	                "type" : "ComboBox"
+                }
+			]
+		},
+		{
+	        "text" : "备用",
+	        "type" : "Page",
+	        "views" : [
+	        ]
+        }
+	]
+}

@@ -1,0 +1,11 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+appid	D:/Documents/xspworkspace/MyTest/xsp/src\main.lua	3;"	e
+doDxc	D:/Documents/xspworkspace/MyTest/xsp/src\doDxc.lua	1;"	f
+doStyleBox	D:/Documents/xspworkspace/MyTest/xsp/src\main.lua	8;"	e
+dxcLevelBox	D:/Documents/xspworkspace/MyTest/xsp/src\main.lua	11;"	e
+dxcSelectBox	D:/Documents/xspworkspace/MyTest/xsp/src\main.lua	10;"	e
